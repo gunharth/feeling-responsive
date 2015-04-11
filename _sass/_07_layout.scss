@@ -66,6 +66,9 @@ body.video cite { color: #fff; }
 
 #masthead {
     background: $primary-color;
+    width: 100%;
+    max-width: 62.5rem;
+    margin: 0 auto;
 }
 #masthead-no-image-header {
     background: $primary-color;
@@ -169,7 +172,7 @@ body.video cite { color: #fff; }
         margin-top: 110px;
     }
     #masthead {
-        height: 380px;
+        height: 300px;
     }
     #masthead-with-pattern {
         padding: 45px 0;
