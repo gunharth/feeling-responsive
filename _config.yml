@@ -67,6 +67,9 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - gunharthio.sublime-project
+    - serve
+    - serve-drafts
 
 
 #
