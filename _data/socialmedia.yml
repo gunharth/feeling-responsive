@@ -18,10 +18,10 @@
   class: icon-linkedin
   title: LinkedIn
 
-# - name: Facebook
-#   url: http:/ing/www.facebook.com/gunharth
-#   class: icon-facebook
-#   title: "Lass uns Freunde sein!"
+- name: Xing
+  url: http:/xing.com
+  class: icon-xing
+  title: "Lass uns Freunde sein!"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/phlow
