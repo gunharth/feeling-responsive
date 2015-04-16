@@ -60,7 +60,7 @@ article a {
 }
 p a:hover,
 article a:hover {
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
 }
 p a.button,
 .button,
@@ -167,20 +167,23 @@ td {
 
 pre {
     overflow: auto;
-    margin-bottom: rem-calc(20);
+    /* margin-bottom: rem-calc(20);
     padding: 5px;
     background-color: $code-background-color;
-    border-radius: $global-radius;
+    border-radius: $global-radius; */
 }
 pre code {
-    padding: rem-calc(2) rem-calc(5) rem-calc(1) rem-calc(0);
+    /* padding: rem-calc(2) rem-calc(5) rem-calc(1) rem-calc(0); */
     border: 0;
+    color: #000;
 }
 
 code {
-    font-size: rem-calc(14);
+    font-size: rem-calc(13);
     line-height: 1.5;
 }
+
+p code { background: #f2f2f2; }
 
 
 

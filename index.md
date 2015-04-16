@@ -9,19 +9,19 @@ title: "Gunharth Randolf – Specialist in Web Technologies"
 header:
    image_fullwidth: "GR_header_03_grey.jpg"
 widget-1:
-    title: "Portfolio"
-    url: 'http://phlow.github.io/feeling-responsive/blog/'
-    text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
+    title: "Projects"
+    url: ''
+    text: '<em>Coming soon</em> ... an overview of open source, experiments and work related projects I am involved in.'
     image: unsplash_9-302x182.jpg
 widget-2:
     title: "Blog"
-    url: 'http://phlow.github.io/feeling-responsive/info/'
-    text: '<em>Feeling Responsive</em> is heavily customizable.<br>1. Language-Support :)<br>2. Optimized for speed and it&#39;s responsive.<br>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br>4. Seven different Headers.<br>5. Customizable navigation, footer,...'
+    url: ''
+    text: "<em>Coming soon</em> ...  yet another blog ;-)! Diving back in into technologies lately there's some stuff that's blog-worthy. Stay tuned for my rants ..."
     image: unsplash_1-303x182.jpg
 widget-3:
     title: "Contact"
-    url: 'https://github.com/Phlow/feeling-responsive'
-    text: '<em>Feeling Responsive</em> is totally free and licensed under the MIT License. Make it your own and do with it what you want. Grab your copy or clone it at GitHub and start your website with it. Then tell me via Twitter <a href="http://twitter.com/phlow">@phlow</a>.'
+    url: ''
+    text: 'Feel free to get in touch with me by using the <a href="/contact">contact form</a> on this site, through <a href="https://github.com/gunharth">GitHub</a>, <a href="https://uk.linkedin.com/in/gunharthrandolf">LinkedIn</a> or <a href="https://twitter.com/gunharth">Twitter</a>.'
     image: github-303x182.jpg
 ---
 
