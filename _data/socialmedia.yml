@@ -23,6 +23,13 @@
   class: icon-xing
   title: Xing
 
+- name: Meetup
+  url: http://www.meetup.com/members/180274542/
+  class: icon-meetup
+  title: Meetup
+
+# 
+
 # - name: Soundcloud
 #   url: http://soundcloud.com/phlow
 #   class: icon-soundcloud

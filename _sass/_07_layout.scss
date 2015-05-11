@@ -14,6 +14,7 @@
 - Footer
 - Subfooter
 - CSS-Classes to add margin at top or bottom
+- CSS-Classes to animate teaser images on hover
 
 */
 
@@ -50,6 +51,88 @@ body.video cite { color: #fff; }
 }
 
 
+.top-bar-section li:not(.has-form) {
+    margin: 0 rem_calc(15) 0 rem_calc(15);
+}
+
+.top-bar .name {
+    margin: 0 rem_calc(15) 0 rem_calc(15);
+}
+.top-bar .name h1 a {
+    position: relative;
+    padding: 0;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button) {
+    position: relative;
+    line-height: 30px;
+    padding: rem_calc(21) 0 15px 0;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background: #fff;
+}
+
+
+.top-bar-section li a:before,.top-bar-section li a:after, .top-bar .name h1 a:before, .top-bar .name h1 a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 4px;
+    z-index: 1;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s
+}
+
+.top-bar-section li a:before, .top-bar .name h1 a:before {
+    width: 100%;
+    background: transparent;
+}
+
+.top-bar-section li a:after, .top-bar .name h1 a:after {
+    width: 0;
+    background: $ci-6;
+}
+
+.top-bar-section li.active a:after {
+    width: 100%;
+}
+
+.top-bar-section li a:active:after,.top-bar-section li a:hover:after,.top-bar-section li a:focus:after,
+.top-bar .name h1 a:active:after,.top-bar .name h1 a:hover:after,.top-bar .name h1 a:focus:after
+ {
+    width: 100%;
+}
+
+
+    
+
+
+/* topbar › small-only
+------------------------------------------------------------------- */
+
+@media #{$small-only} {
+
+    .top-bar-section li:not(.has-form) {
+        margin: 0;
+    }
+    .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button) {
+        padding: 10px;
+    }
+    .top-bar-section li a:after {
+        width: 100%;
+    }
+    .top-bar-section li a:after {
+    background: #fff;
+    }
+
+    .top-bar .name h1 a { width: 30%; }
+
+}
+
+
 
 /* Search
 ------------------------------------------------------------------- */
@@ -65,7 +148,7 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #masthead {
-    background: $primary-color;
+    /* background: $primary-color; */
     width: 100%;
     max-width: 62.5rem;
     margin: 0 auto;
@@ -88,7 +171,12 @@ body.video cite { color: #fff; }
     margin-top: 60px;
 }
 .backstretch {
-    background: $primary-color;
+    /* background: $primary-color; */
+}
+
+.masthead-caption {
+    max-width: 62.5rem;
+    margin: 0 auto;
 }
 
 /* Masthead › small-only
@@ -339,3 +427,112 @@ body.video cite { color: #fff; }
 .pr5  { padding-right: 5px !important; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
+
+
+
+/* CSS-Classes to animate teaser images on hover
+------------------------------------------------------------------- */
+
+.post-teaser {
+    position: relative;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.post-teaser img {
+    position: relative;
+    display: block;
+    z-index: 1;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.post-teaser img.load {
+    display: none
+}
+
+.post-teaser:before,.tiles .post-teaser:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100.5%
+}
+
+.post-teaser:before {
+    z-index: 2;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.post-teaser:after {
+    border: 10px solid #fff;
+    opacity: 0;
+    z-index: 3;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.post-teaser:hover:before {
+    background: rgba(64,57,62,0.5)
+}
+
+.post-teaser:hover:after {
+    opacity: 0.4
+}
+
+.post-teaser:hover img {
+    -webkit-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    transform: scale(1.25)
+}
+
+.post-teaser:focus {
+    box-shadow: 10px 10px #4a4248
+}
+
+
+.top-bar {
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes drop {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+
+@keyframes drop {
+    0% {
+        -webkit-transform: translateY(-500px);
+        transform: translateY(-500px)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.top-bar {
+    -webkit-animation-name: drop;
+    animation-name: drop
+}

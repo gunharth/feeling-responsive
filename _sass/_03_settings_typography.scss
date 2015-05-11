@@ -24,12 +24,14 @@ $base-line-height: 1.5 !default;
 $font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif: "Volkhov", Georgia, Times, serif;
 $font-family-monospace: "Lucida Console", Monaco, monospace;
+$font-family-serif: "Volkhov", Georgia, Times, serif;
+$font-family-navigation: "Alegreya Sans", sans-serif;
 
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
 
-$header-font-family: $font-family-serif;
+$header-font-family: $font-family-navigation;
 
 
 

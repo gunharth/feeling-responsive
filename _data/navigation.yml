@@ -30,11 +30,6 @@
 # - title: Blog
 #   url: "/blog/"
 #   side: right
-#   dropdown:
-#   - title: Blog
-#     url: "/blog/"
-#   - title: "Blog Archive"
-#     url: "/blog/archive/"
 
 - title: About Me
   url: "/about-me/"

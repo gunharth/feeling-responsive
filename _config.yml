@@ -8,7 +8,7 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "Gunharth Randolf"
+title: "gunharth.io"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
@@ -16,7 +16,7 @@ slogan: "Specialist in Web Technologies"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Gunharth Randolf« front & backend developer, tutor, lifelong learner"
+description: "»Gunharth Randolf« front- & back-end developer, tutor, lifelong learner"
 
 
 # This URL is the main adresse. Don't include a slash at the end.
@@ -98,7 +98,7 @@ defaults:
     values:
       show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
+      comments: true
       author: "Gunharth Randolf"
 
 
@@ -134,19 +134,25 @@ bing_webmastertools_id:    "qjGrvdPv-jEfJZShbEi1VtLsoNdviLM5CQVErnPEhag"
 #    / __/ / /_/ /| |/ / / /__/ /_/ / / / (__  ) 
 #   /_/    \__,_/ |___/_/\___/\____/_/ /_/____/   Favicon-Crap: Favicons, Chrome, Android & Apple Touch Buttons
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
-
-favicon-32x32:                          "favicon-32x32.png"
-touch-icon-192x192:                     "touch-icon-192x192.png"
-apple-touch-icon-180x180-precomposed:   "apple-touch-icon-180x180-precomposed.png"
-apple-touch-icon-152x152-precomposed:   "apple-touch-icon-152x152-precomposed.png"
-apple-touch-icon-144x144-precomposed:   "apple-touch-icon-144x144-precomposed.png"
-apple-touch-icon-120x120-precomposed:   "apple-touch-icon-120x120-precomposed.png"
-apple-touch-icon-114x114-precomposed:   "apple-touch-icon-114x114-precomposed.png"
-apple-touch-icon-76x76-precomposed:     "apple-touch-icon-76x76-precomposed.png"
-apple-touch-icon-72x72-precomposed:     "apple-touch-icon-72x72-precomposed.png"
-apple-touch-icon-precomposed:           "apple-touch-icon-precomposed.png"
-msapplication_tileimage:                "msapplication_tileimage.png"               # Size 144x144
-msapplication_tilecolor:                "#fabb00"
+# added icons based on http://www.favicon-generator.org/
+favicon-16x16:                                "favicon-16x16.png"
+favicon-32x32:                                "favicon-32x32.png"
+favicon-96x96:                                "favicon-96x96.png"
+touch-icon-192x192:                           "android-icon-192x192.png"
+apple-touch-icon-180x180-precomposed:         "apple-icon-180x180.png"
+apple-touch-icon-152x152-precomposed:         "apple-icon-152x152.png"
+apple-touch-icon-144x144-precomposed:         "apple-icon-144x144.png"
+apple-touch-icon-120x120-precomposed:         "apple-icon-120x120.png"
+apple-touch-icon-114x114-precomposed:         "apple-icon-114x114.png"
+apple-touch-icon-76x76-precomposed:           "apple-icon-76x76.png"
+apple-touch-icon-72x72-precomposed:           "apple-icon-72x72.png"
+apple-touch-icon-60x60-precomposed:           "apple-icon-60x60.png"
+apple-touch-icon-57x57-precomposed:           "apple-icon-57x57.png"
+apple-touch-icon-precomposed:                 "apple-icon.png"
+android_manifest:                             "manifest.json"
+msapplication_tileimage:                      "ms-icon-144x144.png"
+msapplication_tilecolor:                      "#ffffff"
+android_themecolor:                           "#ffffff"
 
 
 #       ______                __                __  
@@ -155,11 +161,11 @@ msapplication_tilecolor:                "#fabb00"
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<   
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
-og_locale:                          "en_EN"
-og_type:                            "website"
-og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
-og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+# og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
+# og_locale:                          "en_EN"
+# og_type:                            "website"
+# og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
+# og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
 # og_url:                           ""
 # og_site_name:                     ""
 

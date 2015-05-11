@@ -55,6 +55,7 @@
 .icon-leaf:before,
 .icon-linkedin:before,
 .icon-mail:before,
+.icon-meetup:before,
 .icon-message:before,
 .icon-mic:before,
 .icon-network:before,
@@ -123,6 +124,7 @@
 .icon-leaf:before { content: "\f11c"; }
 .icon-linkedin:before { content: "\f11d"; }
 .icon-mail:before { content: "\f11e"; }
+.icon-meetup:before { content: "\f136"; }
 .icon-message:before { content: "\f11f"; }
 .icon-mic:before { content: "\f120"; }
 .icon-network:before { content: "\f121"; }

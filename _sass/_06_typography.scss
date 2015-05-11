@@ -121,6 +121,10 @@ img { border-radius: $global-radius;}
     img.right       { float: right; margin:5px 0 5px 15px; }
     img.aligncenter,
     img.center      { display: block; margin:0 auto 10px; }
+    img.inline { width: 20%; }
+    @media #{$small-only} {
+        img.inline { width: 30%; }
+    }
 
 figure {
     margin: 0 0 rem-calc(30) 0;
@@ -388,6 +392,7 @@ mark {
 .icon-leaf:before,
 .icon-linkedin:before,
 .icon-mail:before,
+.icon-meetup:before,
 .icon-message:before,
 .icon-mic:before,
 .icon-network:before,
@@ -456,6 +461,7 @@ font-smoothing: antialiased;
 .icon-leaf:before { content: "\f11c"; }
 .icon-linkedin:before { content: "\f11d"; }
 .icon-mail:before { content: "\f11e"; }
+.icon-meetup:before { content: "\f136"; }
 .icon-message:before { content: "\f11f"; }
 .icon-mic:before { content: "\f120"; }
 .icon-network:before { content: "\f121"; }

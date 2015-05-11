@@ -12,7 +12,7 @@ format: blog-index
 
 <div class="row">
     <div class="small-12 columns t30">
-        <p class="big-teaser">»Hello, my name is Gunharth Randolf - lifelong apprentice in mastering the arts of full stack web development. I love the buzz of new technology and sharing usefull insights with others. I'm a member of numerous meetup groups, active open source contributor and when my head spins from technology I play some guitar ... «</p>
+        <p class="big-teaser">»Hello, my name is Gunharth Randolf — lifelong apprentice in mastering the arts of full-stack web development. I love the buzz of new technology and sharing useful insights with others. I'm a member of numerous meetup groups, active open source contributor and when my head spins from technology I play some guitar ... «</p>
     </div>
 </div>
 
@@ -24,7 +24,7 @@ format: blog-index
 <div class="row t60">
     {% if page.widget-1.title %}
     <div class="medium-4 columns">
-        <!-- <a href="{{ page.widget-1.url }}"> -->{% if page.widget-1.image %}<img src="{{ site.urlimg }}/{{ page.widget-1.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}<!-- </a> -->
+        <a href="{{ page.widget-1.url }}" class="post-teaser">{% if page.widget-1.image %}<img src="{{ site.urlimg }}/{{ page.widget-1.image }}" alt="Work">{% endif %}{% if page.widget-1.video %}{{ page.widget-1.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-1.title }}</h2>
         <p>{{ page.widget-1.text }}</p>
         <!--<p><a class="button tiny radius" href="{{ page.widget-1.url }}">{{ site.data.language.more }}</a></p>-->
@@ -34,7 +34,7 @@ format: blog-index
 
     {% if page.widget-2.title %}
     <div class="medium-4 columns">
-        <!--<a href="{{ page.widget-2.url }}">{% if page.widget-2.image %}--><img src="{{ site.urlimg }}/{{ page.widget-2.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}<!--</a>-->
+        <a href="{{ page.widget-2.url }}" class="post-teaser">{% if page.widget-2.image %}<img src="{{ site.urlimg }}/{{ page.widget-2.image }}" alt="Blog">{% endif %}{% if page.widget-2.video %}{{ page.widget-2.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-2.title }}</h2>
         <p>{{ page.widget-2.text }}</p>
         <!--<p><a class="button tiny radius" href="{{ page.widget-2.url }}">{{ site.data.language.more }}</a></p>-->
@@ -44,7 +44,7 @@ format: blog-index
 
     {% if page.widget-3.title %}
     <div class="medium-4 columns">
-        <!-- <a href="{{ page.widget-3.url }}"> -->{% if page.widget-3.image %}<img src="{{ site.urlimg }}/{{ page.widget-3.image }}" width="302" height="182" alt="">{% endif %}{% if page.widget-3.video %}{{ page.widget-3.video }}{% endif %}<!-- </a> -->
+        <a href="{{ page.widget-3.url }}" class="post-teaser">{% if page.widget-3.image %}<img src="{{ site.urlimg }}/{{ page.widget-3.image }}" width="480" height="270" alt="Contact">{% endif %}{% if page.widget-3.video %}{{ page.widget-3.video }}{% endif %}</a>
         <h2 class="font-size-h3 t10">{{ page.widget-3.title }}</h2>
         <p>{{ page.widget-3.text }}</p>
         <!--<p><a class="button tiny radius" href="{{ page.widget-3.url }}">Download &#64; GitHub ›</a></p>-->

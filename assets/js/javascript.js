@@ -3504,7 +3504,6 @@ $(document).foundation({
 $(function () {
     // scroll body to 0px on click
     $('#up-to-top').on('click','a', function (e) {
-        alert('clicked');
         e.preventDefault();
         $('body,html').animate({
             scrollTop: 0

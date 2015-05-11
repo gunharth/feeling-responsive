@@ -1,7 +1,7 @@
 {
   "checksum": {
-    "previous": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9",
-    "current": "c5cdc0a58b7277d1f320a4ad50aa8ae2ad47fa6ed879c164db1cfb75439bd1d9"
+    "previous": "77b37947745238bcf94c63543bc5b1abef9e76cec51821b8620f91f72ec7ba7e",
+    "current": "77b37947745238bcf94c63543bc5b1abef9e76cec51821b8620f91f72ec7ba7e"
   },
   "fonts": [
     "./iconfont.ttf",
@@ -137,6 +137,10 @@
     "mail": {
       "codepoint": 61726,
       "source": "svg-files-for-custom-font/mail.svg"
+    },
+    "meetup": {
+      "codepoint": 61750,
+      "source": "svg-files-for-custom-font/meetup.svg"
     },
     "message": {
       "codepoint": 61727,
