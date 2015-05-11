@@ -21,12 +21,12 @@ description: "»Gunharth Randolf« front- & back-end developer, tutor, lifelong 
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "https://gunharth.github.io"
+url: "https://gunharth.io"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/gunharth/gunharth.github-dev
+improve_content: https://github.com/gunharth/gunharth.github.io
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash.
@@ -34,7 +34,7 @@ improve_content: https://github.com/gunharth/gunharth.github-dev
 # Example: <img src="{{ site.urlimg }}/{{ post.image.title }}">
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}/image.jpg)
 #
-urlimg: "https://gunharth.github.io/images/"
+urlimg: "https://gunharth.io/images/"
 
 
 # Logo size is 600x80 pixels
@@ -162,10 +162,10 @@ android_themecolor:                           "#ffffff"
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
 # og_image:                           "http://images.phlow.de/phlow/phlow_de-logo-512x.png"
-# og_locale:                          "en_EN"
-# og_type:                            "website"
-# og_title:                           "Feeling Responsive – A Responsive Theme for Jekyll"
-# og_description:                     "Feeling Responsive is built on the fabulous Foundation Framework and comes with lots of features to show your content right."
+og_locale:                          "en_EN"
+og_type:                            "website"
+og_title:                           "Gunharth Randolf"
+og_description:                     "Specialist in Web Technologies"
 # og_url:                           ""
 # og_site_name:                     ""
 
