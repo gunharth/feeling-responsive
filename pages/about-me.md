@@ -5,10 +5,7 @@ subheadline: "Specialist in Web Technologies"
 description: "Gunharth Randolf is a full-stack web developer, project manager and tutor. 
 As a specialist in Web Technologies his main expertise is in the development of web applications."
 permalink: "/about-me/"
-header:
-    image_fullwidth: "plane.jpg"
-    caption: '&copy; Ian Worrall'
-    caption_url: https://www.flickr.com/photos/ian_a_worrall
+header: no
 ---
 
 <img src="/images/GR_headshot.jpg" alt="Gunharth Randolf" class="alignleft inline">Gunharth Randolf is a full-stack app & web developer, project manager and tutor.
