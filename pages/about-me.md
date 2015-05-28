@@ -8,7 +8,7 @@ permalink: "/about-me/"
 header: no
 ---
 
-<img src="/images/GR_headshot.jpg" alt="Gunharth Randolf" class="alignleft inline">Gunharth Randolf is a full-stack app & web developer, project manager and tutor.
+<img src="/images/about.jpg" alt="Gunharth Randolf" class="alignleft inline">Gunharth Randolf is a full-stack app & web developer, project manager and tutor.
 
 Originating from Innsbruck, Austria, Gunharth went to Boston in the mid-nineties to study at Berklee College of Music. During his studies and with the rise of the Internet he got fascinated in the technologies empowering the web and developed his first websites dedicated to music instruction.
 

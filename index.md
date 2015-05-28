@@ -7,7 +7,7 @@
 layout: frontpage
 title: "Gunharth Randolf – Specialist in Web Technologies"
 header:
-   image_fullwidth: "GR_header_color.jpg"
+   image_fullwidth: "start.jpg"
 widget-1:
     title: "Projects"
     url: '#'
