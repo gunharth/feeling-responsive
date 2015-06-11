@@ -22,5 +22,5 @@ widget-3:
     title: "Contact"
     url: '/contact'
     text: 'Feel free to get in touch with me by using the <a href="/contact">contact form</a> on this site, through <a href="https://github.com/gunharth">GitHub</a>, <a href="https://uk.linkedin.com/in/gunharthrandolf">LinkedIn</a> or <a href="https://twitter.com/gunharth">Twitter</a>.'
-    image: github-303x182.jpg
+    image: github-480x270.jpg
 ---
