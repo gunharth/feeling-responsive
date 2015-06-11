@@ -9,14 +9,14 @@ title: "Gunharth Randolf – Specialist in Web Technologies"
 header:
    image_fullwidth: "start.jpg"
 widget-1:
-    title: "Projects"
+    title: "Projects - <em>Coming Soon ...</em>"
     url: '#'
-    text: '<em>Coming soon</em> ... an overview of open source, experiments and work related projects I am involved in.'
+    text: 'An overview of open source, experiments and work related projects I am involved in.'
     image: unsplash_9-480x270.jpg
 widget-2:
-    title: "Blog"
+    title: "Blog - <em>Coming Soon ...</em>"
     url: '#'
-    text: "<em>Coming soon</em> ...  yet another blog ;-)! Diving back in into technologies lately there's some stuff that's blog-worthy. Stay tuned for some rants ..."
+    text: "Yet another blog ;-)! Diving back in into technologies lately there's some stuff that's blog-worthy. Stay tuned for some rants ..."
     image: unsplash_1-480x270.jpg
 widget-3:
     title: "Contact"
